@@ -97,7 +97,8 @@ let redCars = carsList.filter(car => car.color === "red");
 console.log(redCars);
 console.log("------------------");
 
-let redGreen = carsList.filter(car => car.color === "green" && "red");
+let redGreen = carsList.filter(car => car.color === "green" || car.color == "red");
 console.log(redGreen);
 
 console.log("------------------");
+

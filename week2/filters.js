@@ -13,8 +13,8 @@ let cars = [
     }
 ]
 
-let car= {
-    
+let car = {
+
     "color": "red",
     "type": "cabrio",
     "registration": new Date('2016-05-02'),
@@ -24,13 +24,12 @@ let car= {
  console.log(cars)
  console.log("------------------");
 
- let myCars= [
+ let myCars = [
  {
         "color": "red",
         "type": "hatchback",
         "registration": new Date('2016-06-09'),
-        "capacity": 4
-    
+        "capacity": 4 
 },
 {
 // cars.push(car2)
@@ -43,7 +42,6 @@ let car= {
          "registration": new Date('2021-30-3'),
          "capacity": 2
         },
-
     //     cars.push(car3)
     //     console.log(cars)
     //     console.log("------------------");
@@ -53,38 +51,34 @@ let car= {
          "type": "SUV",
          "registration": new Date('2021-11-02'),
          "capacity": 7
-            
+
     },
     {
          "color": "red",
         "type": "hotrod",
         "registration": new Date('2006-10-12'),
-        "capacity": 2
-                
+        "capacity": 2         
     },
      {
         "color": "green",
         "type": "dragster",
         "registration": new Date('2022-03-08'),
         "capacity": 1
-                    
+
     },
     {
         "color": "yellow",
         "type": "camero",
         "registration": new Date('2021-12-12'),
-        "capacity": 5
-                        
+        "capacity": 5                  
     },
     {
          "color": "cream",
          "type": "Bentley",
          "registration": new Date('2022-11-11'),
-         "capacity": 6
-                            
+         "capacity": 6                           
 }
  ]
-
 
 console.log("------------------");
 
@@ -101,4 +95,3 @@ let redGreen = carsList.filter(car => car.color === "green" || car.color == "red
 console.log(redGreen);
 
 console.log("------------------");
-

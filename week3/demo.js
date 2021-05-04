@@ -107,108 +107,15 @@ var starwars_data = [
 ]
  
 
-//  var getData = function(index = 2){
-//      return starwars_data[index]
-//  }
 
-//  var result = getData(2);
-//  console.log(JSON.stringify(result));
-
-
-
-//  var getData = function( index){
-//     return starwars_data[index];
-// }
-
-// var printProps = function(...props){
-//     props.forEach(element => {
-//         console.log(element);
-//     });
-    //console.log(prop1);
-    //console.log(prop2);
-    // console.log(prop3);
-// }
-// var result = getData(0);
-
-
-// var name = result.name;
-// var height = result.height;
-// var mass = result.mass;
-// var haircolor = result.hair_color;
-// printProps(name, height, mass, haircolor);
-
-  document.getElementById("button").addEventListener("click", e => {
- e.preventDefault()
- console.log("onClick")
- alert(starwars_data[0].name);
- var getData = function( index = 0){
-    return starwars_data[index];
-}
-});
-
-document.getElementById("peopleID").addEventListener("click", e=> {
+document.getElementById("peopleID").addEventListener('keydown', e=> {
     e.preventDefault()
-        console.log("onclick");
-        function peopleID(keyCode) {
-            if (keyCode == 0) {
-                
-                alert(starwars_data[0].name);
-            } else if (keyCode == 1) {
-                
-                alert(starwars_data[1].name);
-            }else if (keyCode == 2) {
-               
-                alert(starwars_data[2].name);
-            }
-        }
+    if(event.key == 0) {
+        alert(starwars_data[0].name + " " + "Eye Color: "+ " " +starwars_data[0].eye_color + " " + "Height: " + " " + starwars_data[0].height)
+    } else if(event.key == 1){
+        alert(starwars_data[1].name + " " + "Eye Color: "+ " " +starwars_data[1].eye_color + " " + "Height: " + " " + starwars_data[1].height)
+    } else if(event.key == 2){
+        alert(starwars_data[2].name + " " + "Eye Color: "+ " " +starwars_data[2].eye_color + " " + "Height: " + " " + starwars_data[2].height)
+    }
 });
-        // }else if(starwars_data = 1){
-        //     alert(starwars_data[1].name)
-        // } else if(starwars_data = 2){
-        //     alert(starwars_data[2].name)
-        // }
         
-        
-        // } else if(result.index === 1){
-        //     alert(starwars_data[index]);
-        // } else if(result.index === 2){
-        //     alert(starwars_data[index])
-        // }
-
-
-
-// var getData = function( index){
-//     return starwars_data[index];
-// }
-
-// var printProps = function(obj, props){
-//     console.log(obj);
-//     props.forEach(element => {
-//         console.log(`${element}= ${obj[element]}`) ;
-//     });
-
-// }
-// var result0 = getData(0);
-
-// const keys = Object.keys(result);
-// printProps(result, keys);
-// console.log(JSON.stringify(result));
-
-// const map = new Map(Object.entries(result))
-
-// var getData = function( index){
-//     return starwars_data[index];
-// }
-
-// var printProps = function(obj, props){
-//     console.log(obj);
-//     props.forEach(element => {
-//         console.log(`${obj[element]}`) ;
-//     });
-
-// }
-// var result0 = getData(0);
-// objectWithAddedProps = {...result0, "class":"FSW113", "type": "demo", "session":"668"};
-
-// var keys = Object.keys(objectWithAddedProps);
-// printProps(objectWithAddedProps, keys);

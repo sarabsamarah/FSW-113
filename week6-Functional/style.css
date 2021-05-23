@@ -1,0 +1,63 @@
+* {
+  background-color: black;
+  color: goldenrod;
+  max-width: max-content;
+}
+
+
+
+
+
+
+#results {
+  padding: 2px;
+  width: 600px;
+  display: inline-block;
+  vertical-align: top;
+  color: burlywood;
+  font-family: fantasy;
+  background-color: gold;
+}
+
+#resultList {
+  background-color: gold;
+  color: black;
+}
+
+#toggleButton {
+  background-color: gold;
+}
+
+#activate {
+  background-color: gold;
+  color: black;
+}
+
+
+
+.container {
+  
+  /* margin: 0 auto; */
+  background-color: black;
+  /* padding: 5px; */
+  color: gold;
+}
+
+
+body {
+  background-color: black;
+  /* color: white; */
+}
+
+img {
+  float:inline-end;
+}
+
+
+
+
+
+
+
+
+
